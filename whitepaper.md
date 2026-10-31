@@ -2,9 +2,9 @@
 
 **Versión 0.4 · 31 de octubre de 2026 · Documento conceptual público**  
 **Origen: Chile · Alcance comercial proyectado: global**  
-**Identidad y símbolo AURV provisionales; sujetos a revisión de marcas y requisitos legales.**
+**Identidad y símbolo PYTHO provisionales; sujetos a revisión de marcas y requisitos legales.**
 
-> **Aviso importante.** Este documento presenta un proyecto en desarrollo. No constituye una oferta pública de valores, una invitación a suscribir tokens ni asesoramiento financiero, médico o jurídico. No existe una emisión AURV autorizada o anunciada mediante este documento. La estructura económica, jurídica y tecnológica está pendiente de validación. Todas las cifras comerciales son hipótesis, no promesas de ventas ni rendimientos.
+> **Aviso importante.** Este documento presenta un proyecto en desarrollo. No constituye una oferta pública de valores, una invitación a suscribir tokens ni asesoramiento financiero, médico o jurídico. No existe una emisión PYTHO autorizada o anunciada mediante este documento. La estructura económica, jurídica y tecnológica está pendiente de validación. Todas las cifras comerciales son hipótesis, no promesas de ventas ni rendimientos.
 
 ## 1. Visión
 
@@ -43,9 +43,9 @@ Phyto contempla una sociedad operativa chilena que investigue, encargue fabricac
 
 La propuesta comercial es internacional, pero la posibilidad de vender productos en cada territorio estará condicionada a la evaluación de ingredientes, etiquetado, importación, publicidad, registros y normas locales. Una tienda web no constituye permiso de comercialización mundial.
 
-## 6. AURV: derechos económicos propuestos
+## 6. PYTHO: derechos económicos propuestos
 
-Se estudia un token denominado **AURV**, con un suministro máximo ilustrativo de **10.000.000 de unidades**, de las que **6.000.000** podrían destinarse a una colocación de financiamiento. Estas magnitudes no constituyen una emisión aprobada.
+Se estudia un token denominado **PYTHO**, con un suministro máximo ilustrativo de **10.000.000 de unidades**, de las que **6.000.000** podrían destinarse a una colocación de financiamiento. Estas magnitudes no constituyen una emisión aprobada.
 
 El modelo contractual propuesto destina colectivamente a los **tokens económicamente elegibles el 15% de los ingresos netos elegibles del perímetro empresarial definido**, con distribución trimestral y **duración perpetua sin vencimiento ordinario predeterminado**. Perpetuo no significa pagos garantizados: el negocio puede carecer de ventas, incumplir o terminar por causas legales o insolvencia.
 
@@ -57,7 +57,7 @@ El modelo contractual propuesto destina colectivamente a los **tokens económica
 
 `Pago de cada titular = fondo distribuible × (tokens elegibles del titular / total de tokens elegibles)`
 
-**Independencia del precio:** el valor de compraventa de AURV en un eventual mercado secundario no forma parte de esta fórmula. La apreciación o depreciación de la cotización afecta el resultado de comprar o vender, pero no altera, por sí sola, el 15% de ingresos elegibles ni el reparto proporcional por unidad elegible. No se promete que exista un mercado secundario ni liquidez.
+**Independencia del precio:** el valor de compraventa de PYTHO en un eventual mercado secundario no forma parte de esta fórmula. La apreciación o depreciación de la cotización afecta el resultado de comprar o vender, pero no altera, por sí sola, el 15% de ingresos elegibles ni el reparto proporcional por unidad elegible. No se promete que exista un mercado secundario ni liquidez.
 
 **Ejemplo:** si los ingresos elegibles de un año ascienden a US$1.000.000, el fondo colectivo sería US$150.000. Con 10 millones de tokens elegibles equivalentes, corresponderían US$0,015 por token, tanto si el precio de negociación fuera US$0,05 como US$2. Los pagos reales pueden ser cero.
 
@@ -65,7 +65,7 @@ El número de tokens elegibles importa: habilitar nuevas unidades dentro del má
 
 ## 7. Gobernanza de titulares
 
-Se propone otorgar a los titulares de AURV **derechos de voto sobre decisiones estratégicas delimitadas**: priorización de líneas científicas admisibles, desarrollo de líneas comerciales, determinados presupuestos extraordinarios y otras materias definidas en el reglamento de gobernanza.
+Se propone otorgar a los titulares de PYTHO **derechos de voto sobre decisiones estratégicas delimitadas**: priorización de líneas científicas admisibles, desarrollo de líneas comerciales, determinados presupuestos extraordinarios y otras materias definidas en el reglamento de gobernanza.
 
 Un diseño preliminar contempla un voto por token habilitado, sujeto a medidas contra concentración, conflictos de interés y manipulación. El quórum, las mayorías, la delegación y la validez legal de cada decisión se definirán antes de la emisión. Los votos sobre derechos económicos requerirán protección especial.
 
@@ -99,7 +99,7 @@ Se modela un **año completo de ventas posterior al lanzamiento**, que podría o
 | Ventas al público | US$8.000.000 | US$200.000.000 |
 | Ingreso elegible supuesto por frasco | US$7 | US$17 |
 | Ingresos elegibles anuales | US$7.000.000 | US$170.000.000 |
-| Fondo colectivo AURV (15%) | US$1.050.000 | US$25.500.000 |
+| Fondo colectivo PYTHO (15%) | US$1.050.000 | US$25.500.000 |
 | Fabricación a costo objetivo US$1 | US$1.000.000 | US$10.000.000 |
 
 Los ingresos elegibles por frasco son **supuestos simplificados** para representar impuestos indirectos y ajustes; no modelan la mezcla real de países, canales, márgenes mayoristas o devoluciones. El costo de fabricación US$1 por frasco es una **meta sin cotización de proveedores confirmada**. Otros costos, incluida publicidad, logística, personal, laboratorios, ensayos, plataformas y tributos directos, pueden ser sustanciales.
@@ -126,7 +126,7 @@ Phyto incorporará principios ambientales, sociales y de gobernanza: abastecimie
 
 ## 13. Cumplimiento legal y sanitario
 
-En Chile, la Ley 21.521 regula determinados servicios financieros tecnológicos, como plataformas de financiamiento colectivo, intermediación y custodia, bajo supervisión de la CMF. La Ley 18.045 puede resultar relevante si los derechos son calificados como valores. La estructura, comercialización, negociación y gobernanza de AURV precisan opinión legal formal antes de promocionar una inversión.
+En Chile, la Ley 21.521 regula determinados servicios financieros tecnológicos, como plataformas de financiamiento colectivo, intermediación y custodia, bajo supervisión de la CMF. La Ley 18.045 puede resultar relevante si los derechos son calificados como valores. La estructura, comercialización, negociación y gobernanza de PYTHO precisan opinión legal formal antes de promocionar una inversión.
 
 El Reglamento Sanitario de los Alimentos (Decreto 977) establece exigencias de producción, comercialización y publicidad alimentaria. Las declaraciones de tratamiento o cura de enfermedades no pueden asumirse permitidas para suplementos. Las normas de países de destino, incluidas las reglas de declaraciones de salud de Estados Unidos y Europa, deben revisarse por producto.
 
@@ -153,3 +153,9 @@ Se propone publicar reportes trimestrales sobre investigación, hitos regulatori
 ---
 
 **Estado documental:** Borrador conceptual, no revisado ni aprobado por asesores legales, sanitarios o auditores. **No comprar ni enviar fondos sobre la base de este documento.**
+
+## Origen y significado del nombre PYTHO
+
+**PYTHO** es el nombre de nuestro laboratorio y del token del ecosistema. Se inspira en **«fito»**, del griego *phytón* («planta»), raíz presente en palabras como *fitoterapia* y *fitoquímica*. El nombre refleja nuestra misión de investigar plantas, algas y compuestos naturales mediante métodos científicos.
+
+**PYTHO no tiene relación con Python**, el lenguaje de programación, ni representa un proyecto oficial de su ecosistema. Es una identidad independiente de PYTHO Labs.
