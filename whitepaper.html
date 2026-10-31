@@ -1,0 +1,170 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Whitepaper conceptual de Phyto Labs: investigación de compuestos naturales, suplementos alimenticios y participación económica tokenizada AURV."><title>Phyto Labs | Whitepaper v0.4</title><style>
+:root{--bg:#09141a;--panel:#10232b;--ink:#ebf5f2;--muted:#a6bdbb;--green:#57d4a0;--line:#29434a}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.72}a{color:#85e7c0}a:hover{text-decoration:none}.wrap{max-width:1050px;margin:auto;padding:40px 24px 100px}.mast{border-bottom:1px solid var(--line);padding:28px 0;background:linear-gradient(130deg,#112f34,#071318)}.mast .inner{max-width:1050px;margin:auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:15px;font-weight:800;letter-spacing:.14em;color:var(--green)}.tag{font-size:12px;border:1px solid #39665f;padding:6px 12px;border-radius:20px;color:#b7e8d5}.hero{padding:56px 0 28px}.hero h1{font-size:clamp(35px,5vw,62px);line-height:1.08;letter-spacing:-.04em;margin:0;color:white}.hero .lead{color:var(--muted);font-size:18px;margin-top:18px;max-width:700px}.layout{display:grid;grid-template-columns:205px minmax(0,1fr);gap:44px}.sidebar{align-self:start;position:sticky;top:22px;max-height:85vh;overflow:auto;font-size:12px}.sidebar p{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--green)}.sidebar a{display:block;color:var(--muted);text-decoration:none;padding:5px 0;line-height:1.4}.sidebar a:hover{color:white}main{min-width:0}main>h1{display:none}h2{font-size:27px;line-height:1.25;margin:52px 0 18px;border-top:1px solid var(--line);padding-top:28px;letter-spacing:-.02em}h3{font-size:19px;margin-top:26px;color:#b1f2d5}p,li{font-size:15px}strong{color:#fff}blockquote{border-left:4px solid var(--green);padding:10px 20px;margin:20px 0;background:var(--panel);border-radius:0 9px 9px 0}blockquote p{font-size:14px}table{width:100%;border-collapse:collapse;font-size:13px;margin:24px 0;display:block;overflow-x:auto}th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);white-space:nowrap}th{background:#163039;color:#c3f8e0}tr:nth-child(even){background:#0e1d24}code{background:#173138;color:#99edd0;padding:2px 6px;border-radius:4px;white-space:normal}hr{border:0;border-top:1px solid var(--line);margin:40px 0}.links{display:flex;gap:12px;flex-wrap:wrap}.action{color:#081b18;background:var(--green);font-weight:700;text-decoration:none;padding:10px 16px;border-radius:8px;font-size:13px}.action.secondary{background:#24434a;color:white}.notice{margin-top:20px;color:#a8bfba;font-size:13px}.footer{text-align:center;color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding:30px} @media(max-width:760px){.layout{display:block}.sidebar{display:none}.wrap{padding:30px 18px 70px}.mast .inner{padding:0 18px}.tag{display:none}h2{font-size:24px}table{font-size:12px}}@media print{body{background:white;color:#111}.mast,.sidebar,.links{display:none}.layout{display:block}.wrap{max-width:none}h2{break-after:avoid}table{color:#111}th{color:#111}p,li{color:#111}strong{color:#111}}
+</style></head><body><header class="mast"><div class="inner"><div class="brand">PHYTO LABS <span style="color:#b4c4c4;font-weight:400">/ WHITEPAPER</span></div><span class="tag">Documento conceptual · v0.4</span></div></header><div class="wrap"><div class="hero"><h1>Investigación natural.<br><span style="color:#57d4a0">Ciencia verificable.</span><br>Progreso compartido.</h1><p class="lead">Whitepaper de investigación científica, suplementos naturales y un modelo propuesto de derechos económicos tokenizados.</p><div class="links"><a class="action" href="#1-vision">Leer whitepaper</a><a class="action secondary" href="whitepaper.md" download>Versión Markdown</a></div><p class="notice">31 de octubre de 2026 · Borrador público para consulta · No constituye oferta de inversión</p></div><div class="layout"><aside class="sidebar"><p>Contenido</p><a href="#1-vision">1. Visión</a><a href="#2-problema-y-oportunidad">2. Problema y oportunidad</a><a href="#3-ruta-cientifica-del-producto">3. Ruta científica del producto</a><a href="#4-objetivo-de-calendario">4. Objetivo de calendario</a><a href="#5-modelo-empresarial">5. Modelo empresarial</a><a href="#6-aurv-derechos-economicos-propuestos">6. AURV: derechos económicos propuestos</a><a href="#7-gobernanza-de-titulares">7. Gobernanza de titulares</a><a href="#8-tokenomics-preliminar">8. Tokenomics preliminar</a><a href="#9-mercado-global-y-escenarios-comerciales">9. Mercado global y escenarios comerciales</a><a href="#10-sostenibilidad-y-financiacion">10. Sostenibilidad y financiación</a><a href="#11-uso-preliminar-de-capital">11. Uso preliminar de capital</a><a href="#12-esg-etica-y-propiedad-intelectual">12. ESG, ética y propiedad intelectual</a><a href="#13-cumplimiento-legal-y-sanitario">13. Cumplimiento legal y sanitario</a><a href="#14-riesgos">14. Riesgos</a><a href="#15-transparencia-y-proximos-hitos">15. Transparencia y próximos hitos</a><a href="#16-fuentes-de-referencia">16. Fuentes de referencia</a></aside><main><h1>PHYTO LABS — WHITEPAPER</h1>
+<p><strong>Versión 0.4 · 31 de octubre de 2026 · Documento conceptual público</strong><br />
+<strong>Origen: Chile · Alcance comercial proyectado: global</strong><br />
+<strong>Identidad y símbolo AURV provisionales; sujetos a revisión de marcas y requisitos legales.</strong></p>
+<blockquote>
+<p><strong>Aviso importante.</strong> Este documento presenta un proyecto en desarrollo. No constituye una oferta pública de valores, una invitación a suscribir tokens ni asesoramiento financiero, médico o jurídico. No existe una emisión AURV autorizada o anunciada mediante este documento. La estructura económica, jurídica y tecnológica está pendiente de validación. Todas las cifras comerciales son hipótesis, no promesas de ventas ni rendimientos.</p>
+</blockquote>
+<h2 id="1-vision">1. Visión</h2>
+<p>Phyto Labs propone crear un laboratorio de investigación aplicada, con origen en Chile y vocación internacional, para estudiar compuestos bioactivos de plantas terrestres, algas y organismos marinos, junto con vitaminas y minerales, y convertir resultados científicamente sustentados en suplementos alimenticios seguros y trazables. La investigación podría extenderse en el futuro a desarrollos farmacológicos, sujetos a un marco distinto de aprobación y comercialización.</p>
+<p>El proyecto combina ciencia, producción comercial, transparencia y una propuesta de financiamiento tokenizado que permitiría compartir una fracción de los ingresos empresariales elegibles y participar en determinadas decisiones estratégicas.</p>
+<p>El propósito no es sustituir medicamentos ni tratamientos indicados por profesionales de salud. La eficacia y la seguridad de cada formulación deberán evaluarse antes de hacer declaraciones de beneficio, respetando las autorizaciones correspondientes en cada país.</p>
+<h2 id="2-problema-y-oportunidad">2. Problema y oportunidad</h2>
+<p>Existe interés internacional en suplementos alimenticios y productos de origen natural. De acuerdo con una estimación de Grand View Research, el mercado mundial de suplementos alimenticios alcanzaría <strong>US$228.200 millones en 2026</strong> (estimación comercial, no ventas propias ni demanda capturable garantizada). Una empresa nueva solo podrá acceder a una fracción de este mercado mediante una propuesta respaldada por evidencia, un producto diferenciado, canales eficaces y cumplimiento sanitario.</p>
+<p>Phyto buscará estudiar fuentes botánicas y marinas —incluida, entre otras, <em>Macrocystis pyrifera</em>— sin atribuir propiedades terapéuticas no demostradas. La selección tendrá en cuenta biodiversidad, sostenibilidad, trazabilidad de insumos y posibles contaminantes.</p>
+<h2 id="3-ruta-cientifica-del-producto">3. Ruta científica del producto</h2>
+<ol>
+<li><strong>Elección de enfermedades, dolencias o necesidades de salud:</strong> identificar problemas relevantes y delimitar cuáles admiten una aproximación nutricional legítima. Una enfermedad puede ser materia de investigación sin convertirse en una indicación permitida para un suplemento.</li>
+<li><strong>Selección de plantas y organismos de estudio:</strong> examinar antecedentes de especies terrestres y marinas, disponibilidad, abastecimiento responsable y riesgos.</li>
+<li><strong>Investigación científica:</strong> recopilar evidencia de composición, mecanismos, biodisponibilidad, interacciones y seguridad.</li>
+<li><strong>Generación de fórmulas y pruebas toxicológicas:</strong> establecer candidatos, concentración, estabilidad, análisis de contaminantes, especificaciones y pruebas precomerciales.</li>
+<li><strong>Pruebas clínicas cuando correspondan:</strong> evaluar beneficios y seguridad mediante protocolos aprobados y revisión ética y regulatoria aplicable. No se expondrá a personas a experimentación sin las autorizaciones necesarias.</li>
+<li><strong>Lanzamiento del producto:</strong> fabricación calificada, controles de lote, etiquetado, distribución y vigilancia posventa.</li>
+</ol>
+<p><strong>Reglas de decisión:</strong> cada fase contará con criterios de avance o cancelación. Un resultado negativo o insuficiente puede obligar a reformular, retrasar o cancelar un producto.</p>
+<h2 id="4-objetivo-de-calendario">4. Objetivo de calendario</h2>
+<p>El proyecto establece como <strong>meta</strong> desarrollar y lanzar el primer suplemento <strong>durante el segundo año desde el cierre efectivo del financiamiento inicial</strong>. Una secuencia orientativa comprende meses 1–6 para selección e investigación inicial, meses 7–15 para formulación y controles, meses 12–21 para validaciones cuando procedan, y meses 19–24 para preparación comercial y lanzamiento. Las actividades pueden solaparse solo cuando sea científicamente y legalmente apropiado.</p>
+<p>El calendario no es una garantía. Una formulación que implique alegaciones de tratamiento de enfermedades o que requiera estudios clínicos extensos puede exceder los 24 meses o necesitar una ruta regulatoria farmacéutica diferente.</p>
+<h2 id="5-modelo-empresarial">5. Modelo empresarial</h2>
+<p>Phyto contempla una sociedad operativa chilena que investigue, encargue fabricación calificada y comercialice productos mediante canales propios o distribuidores. La existencia de una holding o vehículo emisor separado se decidirá a partir del análisis jurídico y tributario. Cualquier estructura deberá identificar inequívocamente a la entidad obligada al pago de los derechos económicos.</p>
+<p>La propuesta comercial es internacional, pero la posibilidad de vender productos en cada territorio estará condicionada a la evaluación de ingredientes, etiquetado, importación, publicidad, registros y normas locales. Una tienda web no constituye permiso de comercialización mundial.</p>
+<h2 id="6-aurv-derechos-economicos-propuestos">6. AURV: derechos económicos propuestos</h2>
+<p>Se estudia un token denominado <strong>AURV</strong>, con un suministro máximo ilustrativo de <strong>10.000.000 de unidades</strong>, de las que <strong>6.000.000</strong> podrían destinarse a una colocación de financiamiento. Estas magnitudes no constituyen una emisión aprobada.</p>
+<p>El modelo contractual propuesto destina colectivamente a los <strong>tokens económicamente elegibles el 15% de los ingresos netos elegibles del perímetro empresarial definido</strong>, con distribución trimestral y <strong>duración perpetua sin vencimiento ordinario predeterminado</strong>. Perpetuo no significa pagos garantizados: el negocio puede carecer de ventas, incumplir o terminar por causas legales o insolvencia.</p>
+<p><strong>Ingresos netos elegibles</strong>: ingresos de ventas efectivamente cobradas de productos y servicios incluidos, netos de impuestos indirectos, descuentos, devoluciones, contracargos y ajustes contractualmente especificados, eliminando transacciones intragrupo para evitar duplicación. <strong>No equivalen a utilidades netas</strong>; gastos operativos, desarrollo e investigación no se deducen automáticamente de la base.</p>
+<p><strong>Cálculo:</strong></p>
+<p><code>Fondo distribuible del período = ingresos netos elegibles × 15%</code></p>
+<p><code>Pago de cada titular = fondo distribuible × (tokens elegibles del titular / total de tokens elegibles)</code></p>
+<p><strong>Independencia del precio:</strong> el valor de compraventa de AURV en un eventual mercado secundario no forma parte de esta fórmula. La apreciación o depreciación de la cotización afecta el resultado de comprar o vender, pero no altera, por sí sola, el 15% de ingresos elegibles ni el reparto proporcional por unidad elegible. No se promete que exista un mercado secundario ni liquidez.</p>
+<p><strong>Ejemplo:</strong> si los ingresos elegibles de un año ascienden a US$1.000.000, el fondo colectivo sería US$150.000. Con 10 millones de tokens elegibles equivalentes, corresponderían US$0,015 por token, tanto si el precio de negociación fuera US$0,05 como US$2. Los pagos reales pueden ser cero.</p>
+<p>El número de tokens elegibles importa: habilitar nuevas unidades dentro del máximo podría diluir la participación porcentual de los titulares existentes. Los derechos de tokens de tesorería, fundadores y reservas requerirán reglas expresas y divulgación previa.</p>
+<h2 id="7-gobernanza-de-titulares">7. Gobernanza de titulares</h2>
+<p>Se propone otorgar a los titulares de AURV <strong>derechos de voto sobre decisiones estratégicas delimitadas</strong>: priorización de líneas científicas admisibles, desarrollo de líneas comerciales, determinados presupuestos extraordinarios y otras materias definidas en el reglamento de gobernanza.</p>
+<p>Un diseño preliminar contempla un voto por token habilitado, sujeto a medidas contra concentración, conflictos de interés y manipulación. El quórum, las mayorías, la delegación y la validez legal de cada decisión se definirán antes de la emisión. Los votos sobre derechos económicos requerirán protección especial.</p>
+<p>La comunidad no podrá votar para obviar resultados toxicológicos, aprobar afirmaciones médicas no autorizadas o reemplazar las decisiones de investigadores, comités de ética y autoridades sanitarias. El voto de un token <strong>no equivale automáticamente a voto societario ni a propiedad accionaria</strong>.</p>
+<h2 id="8-tokenomics-preliminar">8. Tokenomics preliminar</h2>
+<table>
+<thead>
+<tr>
+  <th>Destino propuesto</th>
+  <th style="text-align:right">Tokens</th>
+  <th style="text-align:right">Porcentaje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Financiamiento</td>
+  <td style="text-align:right">6.000.000</td>
+  <td style="text-align:right">60%</td>
+</tr>
+<tr>
+  <td>Tesorería</td>
+  <td style="text-align:right">2.000.000</td>
+  <td style="text-align:right">20%</td>
+</tr>
+<tr>
+  <td>Equipo fundador</td>
+  <td style="text-align:right">1.000.000</td>
+  <td style="text-align:right">10%</td>
+</tr>
+<tr>
+  <td>Alianzas científicas</td>
+  <td style="text-align:right">500.000</td>
+  <td style="text-align:right">5%</td>
+</tr>
+<tr>
+  <td>Reserva</td>
+  <td style="text-align:right">500.000</td>
+  <td style="text-align:right">5%</td>
+</tr>
+<tr>
+  <td><strong>Total máximo</strong></td>
+  <td style="text-align:right"><strong>10.000.000</strong></td>
+  <td style="text-align:right"><strong>100%</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Los tokens reservados o no emitidos no participarían de las distribuciones hasta cumplir las condiciones legales y contractuales de habilitación. El tratamiento definitivo de derechos de fundadores y tesorería requiere resolución de conflictos de interés y análisis de dilución.</p>
+<p><strong>Hipótesis de financiamiento:</strong> recaudar CLP $300 millones colocando 6 millones de tokens a CLP $50 cada uno. Es solamente un ejercicio aritmético; no es una valoración razonada del derecho económico ni una oferta al público. La valoración deberá considerar flujos descontados, riesgos operativos, crédito del emisor, dilución, impuestos y escenarios negativos.</p>
+<h2 id="9-mercado-global-y-escenarios-comerciales">9. Mercado global y escenarios comerciales</h2>
+<p>El mercado objetivo es internacional, no limitado a Chile. La escala de ventas elegida para analizar el proyecto es <strong>1 millón de frascos por año en un escenario denominado pesimista objetivo</strong>, y <strong>10 millones anuales en un escenario optimista</strong>. Son metas cuantitativas hipotéticas, no estimaciones de probabilidad ni un piso de ventas: una prueba de estrés adicional contempla cero ventas.</p>
+<p>Se modela un <strong>año completo de ventas posterior al lanzamiento</strong>, que podría ocurrir después del segundo año del financiamiento. No se deben imputar estas ventas al primer año de investigación.</p>
+<table>
+<thead>
+<tr>
+  <th>Variable</th>
+  <th style="text-align:right">Pesimista objetivo</th>
+  <th style="text-align:right">Optimista</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Frascos anuales</td>
+  <td style="text-align:right">1.000.000</td>
+  <td style="text-align:right">10.000.000</td>
+</tr>
+<tr>
+  <td>Precio minorista por frasco</td>
+  <td style="text-align:right">US$8</td>
+  <td style="text-align:right">US$20</td>
+</tr>
+<tr>
+  <td>Ventas al público</td>
+  <td style="text-align:right">US$8.000.000</td>
+  <td style="text-align:right">US$200.000.000</td>
+</tr>
+<tr>
+  <td>Ingreso elegible supuesto por frasco</td>
+  <td style="text-align:right">US$7</td>
+  <td style="text-align:right">US$17</td>
+</tr>
+<tr>
+  <td>Ingresos elegibles anuales</td>
+  <td style="text-align:right">US$7.000.000</td>
+  <td style="text-align:right">US$170.000.000</td>
+</tr>
+<tr>
+  <td>Fondo colectivo AURV (15%)</td>
+  <td style="text-align:right">US$1.050.000</td>
+  <td style="text-align:right">US$25.500.000</td>
+</tr>
+<tr>
+  <td>Fabricación a costo objetivo US$1</td>
+  <td style="text-align:right">US$1.000.000</td>
+  <td style="text-align:right">US$10.000.000</td>
+</tr>
+</tbody>
+</table>
+<p>Los ingresos elegibles por frasco son <strong>supuestos simplificados</strong> para representar impuestos indirectos y ajustes; no modelan la mezcla real de países, canales, márgenes mayoristas o devoluciones. El costo de fabricación US$1 por frasco es una <strong>meta sin cotización de proveedores confirmada</strong>. Otros costos, incluida publicidad, logística, personal, laboratorios, ensayos, plataformas y tributos directos, pueden ser sustanciales.</p>
+<p>Si cada cliente compra cuatro frascos al año, vender 1 millón de unidades requeriría <strong>250.000 compradores</strong> y vender 10 millones requeriría <strong>2.500.000 compradores</strong>. La recurrencia se debe comprobar comercialmente; no existe una base cautiva demostrada.</p>
+<p><strong>Nota de proporcionalidad:</strong> con 10 millones de tokens económicamente habilitados, el fondo de US$1,05 millones equivaldría a US$0,105 por token en el escenario de un millón de frascos; el fondo de US$25,5 millones equivaldría a US$2,55 por token en el de diez millones. No son retornos garantizados. Una fracción menor o mayor de tokens habilitados altera el pago unitario.</p>
+<h2 id="10-sostenibilidad-y-financiacion">10. Sostenibilidad y financiación</h2>
+<p>Asignar 15% de ingresos elegibles puede generar obligaciones aun en períodos con pérdidas. Antes de fijar contratos definitivos se requiere presupuesto de 24 meses sin ingresos del primer producto, flujo de caja mensual, escenarios de costo de adquisición de clientes, margen de contribución por canal, reservas de liquidez, escenarios de impago y sensibilidad a cambios regulatorios.</p>
+<p>Una distribución perpetua también puede afectar fusiones, adquisiciones y nuevas rondas. Las reglas deberán proteger el perímetro de ingresos ante transferencias de marca, filialización, licencias y reorganizaciones, respetando los derechos de acreedores y la legislación aplicable.</p>
+<h2 id="11-uso-preliminar-de-capital">11. Uso preliminar de capital</h2>
+<p>Como <strong>hipótesis presupuestaria</strong> sobre CLP $300 millones: investigación CLP $90 millones; toxicología, calidad y validación CLP $60 millones; fabricación y preparación comercial CLP $60 millones; comercialización CLP $45 millones; asesoría jurídica y tecnología CLP $30 millones; contingencia CLP $15 millones. Requiere cotizaciones y factibilidad de estudios antes de publicarse como presupuesto comprometido.</p>
+<p>La política financiera deberá favorecer trazabilidad del capital, informes periódicos y auditoría independiente de ingresos y distribuciones. Una blockchain por sí sola no verifica la contabilidad de las ventas.</p>
+<h2 id="12-esg-etica-y-propiedad-intelectual">12. ESG, ética y propiedad intelectual</h2>
+<p>Phyto incorporará principios ambientales, sociales y de gobernanza: abastecimiento sostenible de recursos naturales, manejo de residuos, prácticas de investigación responsables, participación transparente de titulares, conflictos de interés documentados y acceso a información verificable. La estrategia de patentes, marcas y secreto industrial se evaluará caso a caso; una mezcla natural no es automáticamente patentable.</p>
+<h2 id="13-cumplimiento-legal-y-sanitario">13. Cumplimiento legal y sanitario</h2>
+<p>En Chile, la Ley 21.521 regula determinados servicios financieros tecnológicos, como plataformas de financiamiento colectivo, intermediación y custodia, bajo supervisión de la CMF. La Ley 18.045 puede resultar relevante si los derechos son calificados como valores. La estructura, comercialización, negociación y gobernanza de AURV precisan opinión legal formal antes de promocionar una inversión.</p>
+<p>El Reglamento Sanitario de los Alimentos (Decreto 977) establece exigencias de producción, comercialización y publicidad alimentaria. Las declaraciones de tratamiento o cura de enfermedades no pueden asumirse permitidas para suplementos. Las normas de países de destino, incluidas las reglas de declaraciones de salud de Estados Unidos y Europa, deben revisarse por producto.</p>
+<p>La evaluación debe cubrir además tratamiento tributario, prevención de lavado de activos cuando corresponda, privacidad y protección de consumidores.</p>
+<h2 id="14-riesgos">14. Riesgos</h2>
+<p>Entre los riesgos materiales se encuentran: investigación sin resultados útiles; toxicidad o interacciones inesperadas; clasificación como medicamento en vez de suplemento; demora o denegación sanitaria; costos de pruebas mayores a los esperados; fracaso en ventas; dificultades de exportación; publicidad restringida; competencia; pérdidas operativas; ausencia de fondos distribuibles; insolvencia; dilución; vulnerabilidades de contratos inteligentes; pérdida de acceso a billeteras y falta de mercado secundario. <strong>Puede perderse la totalidad del capital aportado.</strong></p>
+<h2 id="15-transparencia-y-proximos-hitos">15. Transparencia y próximos hitos</h2>
+<p>Previo a cualquier emisión: seleccionar primera necesidad de salud; revisar evidencia e ingredientes; cotizar fabricación y ensayos; estructurar entidad emisora y contratos; obtener opinión regulatoria; determinar derechos exactos de votos, dilución y pago; construir un plan comercial por región; y publicar una versión contractual y auditada del documento.</p>
+<p>Se propone publicar reportes trimestrales sobre investigación, hitos regulatorios, utilización de capital, ventas elegibles verificadas y, si llegasen a existir, distribuciones realizadas.</p>
+<h2 id="16-fuentes-de-referencia">16. Fuentes de referencia</h2>
+<ul>
+<li>Grand View Research, <em>Dietary Supplements Market, 2026–2033</em>: <a href="https://www.grandviewresearch.com/industry-analysis/dietary-supplements-market-report">https://www.grandviewresearch.com/industry-analysis/dietary-supplements-market-report</a></li>
+<li>Biblioteca del Congreso Nacional de Chile, Ley 21.521: <a href="https://www.bcn.cl/leychile/navegar?idNorma=1187323">https://www.bcn.cl/leychile/navegar?idNorma=1187323</a></li>
+<li>Ministerio de Salud de Chile, Reglamento Sanitario de los Alimentos: <a href="https://www.minsal.cl/reglamento-sanitario-de-los-alimentos/">https://www.minsal.cl/reglamento-sanitario-de-los-alimentos/</a></li>
+<li>Biblioteca del Congreso Nacional, Decreto 977: <a href="https://www.bcn.cl/leychile/navegar?idNorma=71271">https://www.bcn.cl/leychile/navegar?idNorma=71271</a></li>
+<li>FDA, orientación sobre declaraciones de suplementos: <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/small-entity-compliance-guide-structurefunction-claims">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/small-entity-compliance-guide-structurefunction-claims</a></li>
+</ul>
+<hr />
+<p><strong>Estado documental:</strong> Borrador conceptual, no revisado ni aprobado por asesores legales, sanitarios o auditores. <strong>No comprar ni enviar fondos sobre la base de este documento.</strong></p>
+</main></div></div><footer class="footer">Phyto Labs · Nombre provisional · Whitepaper v0.4 · Información sujeta a revisión científica, jurídica y regulatoria</footer></body></html>
