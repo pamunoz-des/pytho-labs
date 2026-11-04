@@ -1,0 +1,12 @@
+/* PYTHO authentication widget */
+.pytho-auth{display:flex;align-items:center;gap:9px;flex-shrink:0;font-size:12px;position:relative}
+.pytho-auth button,.pytho-auth a{border:1px solid #3a7760;border-radius:999px;background:#112d23;color:#e9fff2;padding:9px 13px;display:inline-flex;align-items:center;gap:8px;text-decoration:none;white-space:nowrap;font-weight:650;cursor:pointer}
+.pytho-auth .google-signin{background:#f5faf7;color:#172a20;border-color:#f5faf7}
+.pytho-auth button:hover,.pytho-auth a:hover{border-color:#6dedb8}
+.pytho-auth .google-g{font-weight:900;font-family:Arial,sans-serif;font-size:16px;color:#4285f4}
+.pytho-auth .pytho-user{display:flex;align-items:center;gap:7px;max-width:230px}
+.pytho-auth .pytho-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:130px;color:#d3fbe8}
+.pytho-auth .pytho-avatar{display:grid;place-items:center;flex:0 0 25px;height:25px;width:25px;border-radius:50%;background:#2a7052;color:white;font-weight:800}
+.pytho-auth .pytho-loading{color:#a8c9b7;font-size:11px}
+@media(max-width:950px){.pytho-auth .pytho-name{max-width:65px}}
+@media(max-width:700px){.pytho-auth{margin-left:auto}.pytho-auth .google-signin{padding:8px 10px}.pytho-auth .pytho-name{display:none}.pytho-auth .pytho-signout{padding:7px 8px}.pytho-auth .pytho-signout-text{display:none}}
